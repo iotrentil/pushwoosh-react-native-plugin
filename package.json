@@ -1,62 +1,31 @@
 {
-  "_from": "pushwoosh-react-native-plugin@5.9.0",
-  "_id": "pushwoosh-react-native-plugin@5.9.0",
-  "_inBundle": false,
-  "_integrity": "sha512-Fu7Es2GPhcisG46A8TEHh9C8ImGrzZe65jspdrW8KUK0pC0OYXwv9x3HEZ93bEqsvakruEAW5xSpCM6IIy02Kw==",
-  "_location": "/pushwoosh-react-native-plugin",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "pushwoosh-react-native-plugin@5.9.0",
-    "name": "pushwoosh-react-native-plugin",
-    "escapedName": "pushwoosh-react-native-plugin",
-    "rawSpec": "5.9.0",
-    "saveSpec": null,
-    "fetchSpec": "5.9.0"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/pushwoosh-react-native-plugin/-/pushwoosh-react-native-plugin-5.9.0.tgz",
-  "_shasum": "a4d366231bdda31868e89f3f8424b4dceab965c6",
-  "_spec": "pushwoosh-react-native-plugin@5.9.0",
-  "_where": "/Users/hchlee/Documents/work/node_modules",
-  "author": {
-    "name": "Pushwoosh"
-  },
-  "bugs": {
-    "url": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
+  "name": "pushwoosh-react-native-plugin",
+  "version": "5.9.0",
   "description": "This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).",
-  "homepage": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin#readme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git"
+  },
   "keywords": [
     "push",
     "notification"
   ],
+  "author": "Pushwoosh",
   "license": "MIT",
-  "main": "index.js",
-  "name": "pushwoosh-react-native-plugin",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pushwoosh/pushwoosh-react-native-plugin.git"
+  "bugs": {
+    "url": "https://github.com/Pushwoosh/pushwoosh-react-native-plugin/issues"
   },
   "rnpm": {
     "android": {
       "sourceDir": "./src/android"
     },
     "ios": {
-      "sharedLibraries": [
-        "libstdc++",
-        "libz"
+      "sharedLibraries" : [ 
+        "libstdc++", 
+        "libz" 
       ],
-      "assets": [
-        "./src/ios/PushwooshInboxBundle.bundle"
-      ]
+      "assets" : [ "./src/ios/PushwooshInboxBundle.bundle" ]
     }
-  },
-  "version": "5.9.0"
+  }
 }
